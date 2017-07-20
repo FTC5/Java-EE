@@ -12,7 +12,7 @@ public class SimpleNumbers {
 					a++;
 				}
 			}
-			if(a<=2) {
+			if(a==2) {
 				System.out.print(i + " , ");
 			}
 			a=0;
