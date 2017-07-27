@@ -15,9 +15,10 @@ public class RectangleOfStarsMethod {
 		width = sc.nextInt();
 		sc.close();
 		rectangle(height, width);
-		
+
 	}
-	static void rectangle(int h,int w) {
+
+	static void rectangle(int h, int w) {
 		for (int i = 0; i < h; i++) {
 			for (int j = 0; j < w; j++) {
 
@@ -31,8 +32,7 @@ public class RectangleOfStarsMethod {
 			}
 			System.out.println();
 		}
-		
+
 	}
-	
-	
+
 }

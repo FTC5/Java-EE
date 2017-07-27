@@ -4,23 +4,25 @@ public class MaxPalindrom {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int max=0;
-		max=palindrom();
+		int max = 0;
+		max = palindrom();
 		System.out.println(max);
 	}
+
 	static int palindrom() {
-		int num=0;
-		for(int i=999;i>900;i--) {
-			for(int j=999;j>900;j--) {
-				num=i*j;
-				if(test(num)==1) {
-				return num;
+		int num = 0;
+		for (int i = 999; i > 900; i--) {
+			for (int j = 999; j > 900; j--) {
+				num = i * j;
+				if (test(num) == 1) {
+					return num;
 				}
-				
+
 			}
 		}
 		return 0;
 	}
+
 	static int test(int num) {
 		int a;
 		int b;
